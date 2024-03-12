@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Validation</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="center">
+    <form id="form" class="form" onsubmit="ValidateForm(event)">
+        <h1>Form Validation</h1>
+        <label for=""name>Name : </label><br>
+        <input type="text" id="name" name="name" class="name" placeholder="Name" required><br>
+        <label for=""name>Phone No : </label><br>
+        <input type="text" id="phone" name="phone" placeholder="Phone No" required ><br>
+        <label for=""name>Email : </label><br>
+        <input type="text" id="email" name="email" placeholder="Email" required><br>
+        <label for=""name>Password : </label><br>
+        <input type="password" id="pass" name="password" placeholder="Password" required><br>
+
+        <button class="submit" type="submit">Submit</button>
+        <video autoplay muted loop id="video-background">
+            <source src="High tech digital world background 4k.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+    </form>
+    </div>
+
+    <script src="val.js"></script>
+</body>
+</html>
